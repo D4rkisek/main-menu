@@ -22,6 +22,11 @@ SCREEN_HEIGHT = 800
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Main menu")
 #####################################################
+# load the background image
+background = pygame.image.load('landscape.jpg').convert_alpha()
+# Scale the background image to fit the screen size
+background = pygame.transform.scale(background, (1240, 800))
+
 # load button images
 start_img = pygame.image.load('Play.png').convert_alpha()
 quit_img = pygame.image.load('Quit.png').convert_alpha()
@@ -37,13 +42,10 @@ while running:
         if event.type == pygame.QUIT:
             running = False
     #########################################################################
-
+    screen.blit(background, (0, 0))
     start_button.draw()
     quit_button.draw()
     #########################################################################
-
-    screen.fill((36, 143, 191))
     pygame.display.update()
-
 # Quit Pygame
 pygame.quit()
