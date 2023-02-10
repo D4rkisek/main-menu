@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08dc7711-cf0b-4109-a022-42f9bc4ef3d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catann.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
+    <list default="true" id="08dc7711-cf0b-4109-a022-42f9bc4ef3d9" name="Changes" comment="main menu with background pic, with button.py class, making it modular">
+      <change afterPath="$PROJECT_DIR$/Play2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quit2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/button.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,34 @@
       <option name="presentableId" value="Default" />
       <updated>1675884580366</updated>
     </task>
+    <task id="LOCAL-00001" summary="main menu">
+      <created>1675889647558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675889647558</updated>
+    </task>
+    <task id="LOCAL-00002" summary="main menu with background pic">
+      <created>1675890600225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675890600225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="main menu with background pic, with button.py class, making it modular">
+      <created>1675892997945</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675892997945</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main menu" />
+    <MESSAGE value="main menu with background pic" />
+    <MESSAGE value="main menu with background pic, with button.py class, making it modular" />
+    <option name="LAST_COMMIT_MESSAGE" value="main menu with background pic, with button.py class, making it modular" />
   </component>
 </project>
