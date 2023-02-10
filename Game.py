@@ -18,7 +18,6 @@ background = pygame.transform.scale(background, (1240, 800))
 # load button images
 start_img = pygame.image.load('Play.png').convert_alpha()
 quit_img = pygame.image.load('Quit.png').convert_alpha()
-
 start_img2 = pygame.image.load('Play2.png').convert_alpha()
 quit_img2 = pygame.image.load('Quit2.png').convert_alpha()
 # create button instance

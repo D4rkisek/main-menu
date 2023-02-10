@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08dc7711-cf0b-4109-a022-42f9bc4ef3d9" name="Changes" comment="main menu with background pic, with button.py class, making it modular">
-      <change afterPath="$PROJECT_DIR$/Play2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quit2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/button.py" afterDir="false" />
     </list>

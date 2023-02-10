@@ -17,8 +17,7 @@ class Button:
         pos = pygame.mouse.get_pos()
         # check mouseover and clicked conditions
         if self.rect.collidepoint(pos):  # is the cursor colliding the rectangle of the button
-            # draw the second button on screen
-            surface.blit(self.image2, (self.rect.x, self.rect.y))
+
 
             if pygame.mouse.get_pressed()[0] == 1 and self.clicked == False:  # [0] means left click, [1] means middle click, [2] means right click
                 self.clicked = True
