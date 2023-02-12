@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08dc7711-cf0b-4109-a022-42f9bc4ef3d9" name="Changes" comment="added more functionalities to the button class">
-      <change afterPath="$PROJECT_DIR$/crosshair.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursor.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cursor_fist.gif" afterDir="false" />
+    <list default="true" id="08dc7711-cf0b-4109-a022-42f9bc4ef3d9" name="Changes" comment="Cursor added">
+      <change afterPath="$PROJECT_DIR$/cards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crosshair.py" beforeDir="false" afterPath="$PROJECT_DIR$/crosshair.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot;https://github.com/ConnieLo/The_settlers.git&quot;,
+      &quot;state&quot;: &quot;OPEN&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a892a90a-f503-415a-8de4-b9ee063495f3" />
+        <option name="url" value="https://github.com/D4rkisek/main-menu.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676155050790</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cursor added">
+      <created>1676161167186</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676161167186</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Cursor added">
+      <created>1676161313457</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676161313457</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +139,7 @@
     <MESSAGE value="main menu with background pic" />
     <MESSAGE value="main menu with background pic, with button.py class, making it modular" />
     <MESSAGE value="added more functionalities to the button class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more functionalities to the button class" />
+    <MESSAGE value="Cursor added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cursor added" />
   </component>
 </project>

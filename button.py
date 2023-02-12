@@ -43,6 +43,5 @@ class Button:
         if pygame.mouse.get_pressed()[0] == 0:
             self.clicked = False
 
-
         # this allows to use if statements in the draw() methods, because it returns boolean values
         return action
