@@ -30,7 +30,6 @@ crosshair_group.add(crosshair)
 # crosshair = crosshair_group.sprites()[0] # get the first (and only) sprite in the group
 
 
-
 # load button images
 start_img = pygame.image.load('Play.png').convert_alpha()
 quit_img = pygame.image.load('Quit.png').convert_alpha()

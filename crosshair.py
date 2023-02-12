@@ -1,6 +1,5 @@
 import pygame
 
-
 class crosshair(pygame.sprite.Sprite):
     def __init__(self, picture_path, alt_picture_path):
         super().__init__()
