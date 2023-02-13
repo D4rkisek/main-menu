@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08dc7711-cf0b-4109-a022-42f9bc4ef3d9" name="Changes" comment="Cursor added">
-      <change afterPath="$PROJECT_DIR$/cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+    <list default="true" id="08dc7711-cf0b-4109-a022-42f9bc4ef3d9" name="Changes" comment="Player added">
+      <change afterPath="$PROJECT_DIR$/Graphics/dice/diceFive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/dice/diceFour.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/dice/diceOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/dice/diceSix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/dice/diceThree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/dice/diceTwo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crosshair.py" beforeDir="false" afterPath="$PROJECT_DIR$/crosshair.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/maruf/Desktop/game&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Catann"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Catann" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Catann\Graphics\dice" />
       <recent name="C:\Catann" />
     </key>
   </component>
@@ -131,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676161313457</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Player added">
+      <created>1676244508255</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676244508255</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,6 +155,7 @@
     <MESSAGE value="main menu with background pic, with button.py class, making it modular" />
     <MESSAGE value="added more functionalities to the button class" />
     <MESSAGE value="Cursor added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cursor added" />
+    <MESSAGE value="Player added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Player added" />
   </component>
 </project>

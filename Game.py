@@ -1,6 +1,7 @@
 import pygame
 import button
 import crosshair
+import dice
 import player
 
 # Initialize Pygame
@@ -29,6 +30,9 @@ quit_img = pygame.image.load('Quit.png').convert_alpha()
 start_img2 = pygame.image.load('Play2.png').convert_alpha()
 quit_img2 = pygame.image.load('Quit2.png').convert_alpha()
 
+#regular button
+reg_button = pygame.image.load('buttons.png').convert_alpha()
+
 #################### Main menu Stage #####################################################
 # load the background image for the main menu
 background = pygame.image.load('landscape.jpg').convert_alpha()
@@ -38,13 +42,16 @@ background = pygame.transform.scale(background, (SCREEN_WIDTH, SCREEN_HEIGHT))
 # create button instances
 start_button = button.Button(SCREEN_WIDTH/5, SCREEN_HEIGHT/2.5, start_img, start_img2)
 quit_button = button.Button(SCREEN_WIDTH/1.8, SCREEN_HEIGHT/2.5, quit_img, quit_img2)
-#################### Main menu Stage END#######################################################
+#################### Main menu Stage END #######################################################
 
 
 #################### Game Stage ###############################################################
 # create a button instance
 quit_button2 = button.Button(SCREEN_WIDTH*0, SCREEN_HEIGHT*0, quit_img, quit_img2)
-
+# roll the dice button
+dice_roll = button.Button(SCREEN_WIDTH - reg_button.get_width(),
+                          SCREEN_HEIGHT - reg_button.get_height(),
+                          reg_button, reg_button)
 
 # Player
 # RBG value
@@ -56,7 +63,10 @@ font = pygame.font.Font(None, font_size)
 # create a player instance
 player1 = player.player("Mark", BLACK)
 
-
+# die
+dice1 = dice.dice(SCREEN_WIDTH/1.5, SCREEN_HEIGHT/2, 50)
+# second die
+dice2 = dice.dice(SCREEN_WIDTH/1.2, SCREEN_HEIGHT/2, 50)
 
 ######################## Game Stage END #######################################################
 
@@ -66,7 +76,7 @@ def game():
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                running = False
+                pygame.quit()
         ####################################################################
         # background colour
         screen.fill((79, 129, 189))
@@ -79,6 +89,15 @@ def game():
         # Display the player's name and score
         player1.display(screen, font, 50, SCREEN_HEIGHT/4)
 
+        # dice
+        dice1.draw(screen)
+        dice2.draw(screen)
+
+        # roll the dice button
+        if dice_roll.draw(screen):
+            dice1.roll()
+            dice2.roll()
+            print('Dice value:', dice1.value + dice2.value)
 
         # crosshair
         crosshair_group.draw(screen)
