@@ -3,6 +3,7 @@ import button
 import crosshair
 import dice
 import player
+from tile import tiles
 
 # Initialize Pygame
 pygame.init()
@@ -31,7 +32,7 @@ start_img2 = pygame.image.load('Play2.png').convert_alpha()
 quit_img2 = pygame.image.load('Quit2.png').convert_alpha()
 
 #regular button
-reg_button = pygame.image.load('buttons.png').convert_alpha()
+reg_button = pygame.image.load('reg_button.png').convert_alpha()
 
 #################### Main menu Stage #####################################################
 # load the background image for the main menu
@@ -84,6 +85,7 @@ def game():
         # button
         if quit_button2.draw(screen):
             print('QUIT')
+            player1.reset_resources()  # Resets the player's resources
             running = False
 
         # Display the player's name and score
@@ -98,6 +100,14 @@ def game():
             dice1.roll()
             dice2.roll()
             print('Dice value:', dice1.value + dice2.value)
+
+            # Distribute resources to the players based on the rolled number
+            number_rolled = dice1.value + dice2.value
+
+            for tile in tiles:
+                if tile.number == number_rolled:
+                    player1.add_resources(tile.resource_type, 1)
+
 
         # crosshair
         crosshair_group.draw(screen)

@@ -18,6 +18,9 @@ class player:
         else:
             return False
 
+    def reset_resources(self):
+        self.resources = {"wood": 0, "brick": 0, "sheep": 0, "wheat": 0, "ore": 0}
+
     def display(self, surface, font, x, y):
         text = font.render(f"{self.name}'s Score: {self.score}", True, self.color)
         text2 = font.render(f"{self.name}'s Resources: {self.resources}", True, self.color)

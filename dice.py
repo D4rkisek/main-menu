@@ -18,10 +18,10 @@ class dice:
             6: pygame.image.load('Graphics/dice/diceSix.png')
         }
 
+
     def roll(self):
         # Generate a random number between 1 and 6 for the value of the die.
         self.value = random.randint(1, 6)
-
     def draw(self, surface):
         # Draw the image for the current value of the die on the screen.
         image = self.images[self.value]
